@@ -1,0 +1,19 @@
+.pogination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+    h4{
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+}
+
+.product-modals{
+    display: flex;
+    justify-content: end;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}

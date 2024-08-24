@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(197, 198, 199);
+    height: 32px;
+    background: #001529;
+    margin: 16px;
+    padding: 20px;
+    border-radius: 10px;
+}

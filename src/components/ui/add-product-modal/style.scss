@@ -1,0 +1,93 @@
+/* style.scss */
+
+.open-modal-button {
+    background-color: #3498db; /* Soft blue for a modern look */
+    border-color: #3498db;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      background-color: #2980b9;
+      border-color: #2980b9;
+    }
+  }
+  
+  .custom-modal {
+    .ant-modal-title {
+      color: #2c3e50;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+  
+    .ant-modal-body {
+      padding: 40px;
+      background-color: #ecf0f1; /* Light gray background */
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .custom-form {
+    .ant-form-item {
+      margin-bottom: 16px;
+    }
+  
+    .custom-input, .custom-textarea {
+      border-radius: 8px;
+      border: 1px solid #3498db; /* Subtle blue border */
+      transition: border-color 0.3s ease;
+    }
+  
+    .custom-input:focus, .custom-textarea:focus {
+      border-color: #2980b9; /* Darker blue on focus */
+    }
+  
+    .custom-select {
+      border-radius: 8px;
+      border: 1px solid #3498db;
+      transition: border-color 0.3s ease;
+    }
+  
+    .custom-select .ant-select-selector {
+      border-radius: 8px;
+      border: 1px solid #3498db;
+    }
+  
+    .custom-select:hover .ant-select-selector {
+      border-color: #2980b9;
+    }
+  
+    .custom-dragger {
+      border-radius: 8px;
+      border: 1px dashed #3498db; /* Dashed border for drag area */
+      background: #ffffff;
+      padding: 20px;
+      transition: border-color 0.3s ease;
+  
+      .ant-upload-drag-icon {
+        color: #3498db;
+      }
+  
+      .ant-upload-text {
+        color: #2c3e50;
+      }
+    }
+  
+    .submit-button {
+      background-color: #3498db;
+      border-color: #3498db;
+      border-radius: 6px;
+      height: 40px;
+      font-size: 1rem;
+      color: #fff;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+  
+      &:hover {
+        background-color: #2980b9;
+        border-color: #2980b9;
+      }
+    }
+  }
+  

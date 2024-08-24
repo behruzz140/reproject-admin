@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+.menu-btn{
+    display: none;
+}
+a{
+    color: #13274F;
+}
