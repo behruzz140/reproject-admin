@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import './style.scss';
 import { useProductStore } from "@store";
 import { AddProductModal, Table } from "@ui";
